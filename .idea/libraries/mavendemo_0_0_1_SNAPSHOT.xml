@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mavendemo-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mavendemo/target/mavendemo-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
