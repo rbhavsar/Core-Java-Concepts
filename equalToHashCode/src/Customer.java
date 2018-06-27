@@ -28,22 +28,4 @@ public class Customer {
 		this.creditCard = creditCard;
 	}
 
-
-	@Override
-	public boolean equals(Object obj){
-		System.out.println("Inside equals");
-		if(obj != null && obj instanceof Customer){
-			String firstName = ((Customer) obj).getFirstName();
-			if(firstName!=null && firstName.equals(this.getFirstName())){
-				return true;
-			}
-		}
-		return false;
-	}
-
-	/*@Override
-	public int hashCode(){
-		return this.firstName.hashCode();
-	}*/
 }
-
